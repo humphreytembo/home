@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  
+}
+.middle{
+    margin: 0 auto;
+    max-width: 1100px;
+}
+iddle{
+    display:flex;
+    padding-bottom: 50px;
+}
+
+.content-0,
+.enter {
+    margin-top: 60px;
+} 
+.content-0 {
+    width: 500px;
+}
+.enter{
+    margin-left: 300px;
+}
+#button {
+    margin-top: 10px;
+} 
+.home-1 {
+    margin: 0 auto;
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;  
+}
+.navbar {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.list li {
+    margin-left: 20px;
+}
+.home-1 {
+    display: flex;
+    flex-direction: row;   
+}
+.home-2 {
+    display: flex;
+    flex-direction: row;
+}
+.home-2 {
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.container {
+    justify-content: center;
+}
+.home-3 {
+    background: url("bg-curve-mobile.svg") no-repeat center center;
+    margin-top: 90px;
+    /*height: 100%; /* Ensure the div has a defined height */
+    background-size: cover;
+}
+.image-1 img {
+    width: 100%;
+}
+.button {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    border: none;  
+}
+.input {
+    padding: 8px;
+}
+.logo img{
+    width: 120px;
+}
+.home-1 {
+    margin-top: 30px;   
+}
+.content {
+    margin-top: 90px;
+}
+.img {
+    width: 40px;
+    border-radius: 50%;
+}
+.uno {
+    margin-left: 10px;
+}
+.ing {
+    display: flex;
+    flex-direction: row;    
+}
+.span {
+    font-weight: bold;
+}
+.cotent-inside {
+    width: 350px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+}
+#tmt {
+    margin-top: 80px;
+}
+.content {
+    margin-right: 50px;
+}
+.underline {
+   text-decoration: underline solid black;
+  
+}
+.narrow {
+    display: flex;
+    flex-direction: row;
+    color: green;
+}
+.igbo {
+    margin-left: 10px;
+}
+.narrow :hover {
+    cursor: pointer;
+}
+.middle-middle {
+    background-color: hsl(238, 22%, 44%);
+    color: white;   
+}
+.foot {
+    margin:  0 auto;
+    max-width: 1100px;
+}
+.footerr{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+.fylo {
+    width: 120px;
+    color: white;
+}
+.footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+.foot, .footerr {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.ring {
+    margin-left: 10px;
+}
+i {
+    font-size: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-right: 5px;  
+}
+i.bx:hover{
+    cursor: pointer;
+    color: blue;
+}
+.humphrey {
+    justify-content: center;
+    text-align: center;
+}
+.list li:hover {
+    color: blue;
+}
+.list li {
+    cursor: pointer;
+}
+.button:hover {
+    cursor: pointer;
+}
+@media only screen and (max-width: 1200px) {
+    .navbar,
+     .home-2,
+     .middle,
+    .home-1 {
+       max-width: 950px;
+    }
+    .home-2 {
+        padding-bottom: 80px;
+    }
+    i {
+        margin-right: 1px;  
+    }
+    .footerr{
+        display: flex;
+        flex-direction: row;
+        gap: 120px;
+    }
+    .foot {
+        max-width: 950px;
+        justify-content: center;
+    }
+    .content-3 {
+        margin-top: 20px;
+        
+    }    
+    .button {
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 993px) {
+    .home-1,
+    .home-2,
+     .middle
+    {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     }
+     .navbar {
+        margin-top: 30px;
+     }
+     #btn {
+        width: 320px;
+     }
+     .enter {
+        margin: auto;
+        margin-top: 30px;
+    }
+    
+     .cotent-inside {
+        width: 300px;
+        border-radius: 5px;
+     }
+     .input,
+     #button {
+        width: 300px;
+        
+     }
+     .content {
+          width: 100%;
+          margin-top: 50px;
+     }
+     .footerr {
+        display: grid;
+        margin-left: 30px;
+     }
+     #rows {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     }
+     i {
+        margin: 10px;
+     }
+     .fylo {
+        margin-left: 30px;
+     }
+     .content-3 {
+        margin-top: 20px;
+        margin-right: auto;
+    }
+
+   
+}
+
