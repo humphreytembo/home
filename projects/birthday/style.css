@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to top right, #ffb6c1, #ffd700);
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 60px 20px;
+    color: #fff;
+    animation: fadeIn 3s ease-in-out;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    animation: popUp 1s ease forwards;
+  }
+  
+  .message {
+    font-size: 1.3rem;
+    margin: 20px 0;
+    animation: fadeIn 3s ease-in-out 1s;
+  }
+  
+  /* Heart-shaped button */
+  button {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    background-color: #ff69b4;
+    transform: rotate(-45deg);
+    margin: 50px auto;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  
+  
+  button:hover {
+    transform: rotate(-45deg) scale(1.1);
+  }
+  button::before,
+  button::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 90px;
+    background-color: #ff69b4;
+    border-radius: 50%;
+    z-index: -1;
+  }
+  
+  button::before {
+    top: -50px;
+    left: 0;
+  }
+  
+  button::after {
+    left: 50px;
+    top: 0;
+  }
+  
+  button span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: rotate(45deg) translate(-50%, -50%);
+    font-size: 0.9rem;
+    color: white;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+  
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes popUp {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+  }
+  
